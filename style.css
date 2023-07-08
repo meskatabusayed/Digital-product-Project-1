@@ -3,7 +3,7 @@
     padding: 0;
 }
 .header{
-    background: black;
+    background: rgb(32, 31, 31);
     display: flex;
     justify-content: space-around;
     padding: 20px;
@@ -28,4 +28,36 @@
 }
 .list-items:hover{
     color: red;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-main{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color:white;
+    background: url("./images/background.png"), linear-gradient(45deg,rgb(8,8,8),rgb(53,53,53));
+    
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+
+}
+.btn{
+    padding: 10px 20px;
+    color: white;
+    background: red;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: blue;
 }
